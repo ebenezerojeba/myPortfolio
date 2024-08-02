@@ -73,71 +73,76 @@ export const navItems = [
     {
       id: 1,
       title: "Nike Website",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      des: "Landing page of a Nike Website",
       img: "/nike_landing_page.png",
       iconLists: ["/re.svg", "/tail.svg",],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://github.com/ebenezerojeba/Nike-Store",
     },
     {
       id: 2,
       title: "Yoom - Video Conferencing App",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+      link: "https://github.com/ebenezerojeba/zoom-clone",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "A Complete Food Delievery and Event planing website",
+      des: "This is a dynamic and user-friendly food delivery platform developed using the MERN stack (MongoDB, Express.js, React.js, Node.js). The website offers a seamless and efficient online ordering experience, connecting users with a wide variety of local restaurants and cuisines.",
       img: "/palatial.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      iconLists: ["/re.svg", "/ts.svg", "/expressjs-icon.svg"],
+      link: "https://github.com/ebenezerojeba/Food-delivery",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      title: "A Responsive full-stack E-commerce website",
+      des: "This showcases my ability to develop a full-stack e-commerce application, emphasizing user experience, responsive design, and secure transactions. The platform's features ensure an enjoyable and efficient shopping experience, highlighting my skills in both frontend and backend development, as well as third-party API integration",
       img: "shoe.png",
       iconLists: ["/re.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://github.com/ebenezerojeba/kennysoles",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+       "Working with Ojeba has been an absolute pleasure. His attention to detail and ability to bring our vision to life exceeded our expectations. Our website not only looks fantastic but also functions seamlessly across all devices. We couldn't be happier with the result and highly recommend him for any front-end development needs.",
+      name: "Joshua Salau",
+      title: "CEO of Creative Solutions",
+      img: '/josh.jpeg',
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Ebenezer was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      name: "Maleek Yusuf",
+      title: "Director of Regional Technologies",
+      img: '/review2.webp',
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "From our initial consultation to the final launch, Ebenezer, demonstrated unparalleled professionalism and expertise. He took our ideas and turned them into a visually stunning and highly functional website. The feedback from our users has been overwhelmingly positive.",
+      name: "Kehinde Rebecca",
+      title: "CEO of Kennysoles",
+      img: '/kenny.jpg',
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+       "As a designer, finding a front-end developer who can accurately translate design concepts into reality is rare. Your ability to understand and implement complex designs with pixel-perfect precision is impressive. I highly recommend you to anyone looking for top-tier front-end development.",
+      name: "Madiba Johnson",
+      title: "Lead Designer, Designer Studio",
+      img: '/reviewone.jpg',
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+       "Your code is not only elegant and efficient but also exceptionally well-documented, making it easy for the entire team to build upon",
+      name: "Oluwole Ayobami",
+      title: "Frontend Intern, ALX",
+      img: '/review3.jpg',
     },
   ];
   
-  export const companies = [
+  export const compans = [
     {
       id: 1,
       name: "cloudinary",
@@ -156,18 +161,6 @@ export const navItems = [
       img: "/host.svg",
       nameImg: "/hostName.svg",
     },
-    {
-      id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
-    },
   ];
   
   export const workExperience = [
@@ -180,13 +173,6 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
       title: "Freelance App Dev Project",
       desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
       className: "md:col-span-2", // change to md:col-span-2
@@ -194,24 +180,46 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      title: "Coursera",
+      desc: "Meta Front-End Developer Professional Certificate.",
+      className: "md:col-span",
+      thumbnail: "/bachelor.png",
     },
+    {
+      id: 5,
+      title: "Coursera",
+      desc: "Introduction to Backend Development.",
+      className: "md:col-span", // change to md:col-span-2
+      thumbnail: "/scroll.png",
+    },
+    {
+      id: 6,
+      title: "University of Lagos",
+      desc: "Bachelor of Arts in Philosophy",
+      className: "md:col-span",
+      thumbnail: "/degree3.png",
+    }
   ];
-  
+
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: "/icons8-github.gif",
+      link: "https://github.com/ebenezerojeba",
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/icons8-instagram.gif",
+      link: "https://www.instagram.com/n.e.e.z.a.h?igsh=MWw1ZzRwYnBzeWF3Nw%3D%3D&utm_source=qr"
     },
     {
       id: 3,
+      img: "/whatsapp1.png",
+      link: "https://wa.link/zdz7qq",
+    },
+    {
+      id: 4,
       img: "/link.svg",
+      link: "https://linkedin.com/in/ebenezer-ojeba-12b3b2281",
     },
   ];

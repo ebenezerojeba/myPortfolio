@@ -3,10 +3,10 @@
 import { cn } from "@/utils/cn";
 import React, { useEffect, useState } from "react";
 
-export const InfiniteMovingCards = ({
+export const   InfiniteMovingCards = ({
   items,
   direction = "left",
-  speed = "fast",
+  speed = "slow",
   pauseOnHover = true,
   className,
 }: {
@@ -14,8 +14,9 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
+    img: string;
   }[];
-  direction?: "left" | "right";
+  direction?: "left" | "right" | "up" | "down"
   speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
   className?: string;
@@ -61,11 +62,11 @@ export const InfiniteMovingCards = ({
   const getSpeed = () => {
     if (containerRef.current) {
       if (speed === "fast") {
-        containerRef.current.style.setProperty("--animation-duration", "20s");
-      } else if (speed === "normal") {
         containerRef.current.style.setProperty("--animation-duration", "40s");
-      } else {
+      } else if (speed === "normal") {
         containerRef.current.style.setProperty("--animation-duration", "80s");
+      } else {
+        containerRef.current.style.setProperty("--animation-duration", "300s");
       }
     }
   };
@@ -105,7 +106,11 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                     <div className="me-3">
-                        <img src="/profile.svg" alt="profile" />
+                        <img 
+                        src={item.img} 
+                        width={35} 
+                        height={35} 
+                        className="border border-white/[.2] rounded-full object-fill" />
 
                     </div>
                     <div className=" flex flex-col gap-1">
